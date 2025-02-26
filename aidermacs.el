@@ -835,7 +835,7 @@ If file doesn't exist, create it with command binding help and sample prompt."
             (insert "# aidermacs Prompt File - Command Reference:\n")
             (insert "# C-c C-n or C-<return>: Send current line or selected region line by line\n")
             (insert "# C-c C-c: Send current block or selected region as a whole\n")
-            (insert "# C-c C-z: Switch to aidermacs buffer\n")
+            (insert "# C-c C-z: Switch to aidermacs buffer\n\n")
             (insert "* Sample task:\n\n")
             (insert "/ask what this repo is about?\n")
             (save-buffer)))
